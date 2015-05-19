@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.1.2 - 2015-05-18
+### Added
+- add release scripts.
+
+### Changed
+- update dev deps (`istanbul` => 0.3.14, `standard` => 3.11.0)
+- update deps (`supertest` => 1.0.1)
+
 ## 0.1.1 - 2015-05-12
 ### Added
 - add supertest koa tape-runner example.

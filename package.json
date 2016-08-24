@@ -1,13 +1,13 @@
 {
   "name": "supertest-koa-agent",
   "description": "Converts a Koa app into a supertest compatible agent instance.",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
   "bugs": {
     "url": "https://github.com/wilmoore/node-supertest-koa-agent/issues"
   },
   "dependencies": {
-    "supertest": "^1.0.1"
+    "supertest": "^2.0.0"
   },
   "devDependencies": {
     "istanbul": "^0.3.14",

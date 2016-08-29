@@ -7,7 +7,7 @@
     "url": "https://github.com/wilmoore/node-supertest-koa-agent/issues"
   },
   "dependencies": {
-    "supertest": "^1.0.1"
+    "supertest": "^2.0.0"
   },
   "devDependencies": {
     "istanbul": "^0.3.14",

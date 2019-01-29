@@ -4,14 +4,19 @@
  * imports.
  */
 
-var koa = require('koa')
+var Koa = require('koa')
 var test = require('tape-catch')
+
+/*!
+ * Initializing koa app
+ */
+var app = new Koa()
 
 /*!
  * imports (local).
  */
 
-var agent = require('./')(koa())
+var agent = require('./')(app)
 
 /*!
  * tests.

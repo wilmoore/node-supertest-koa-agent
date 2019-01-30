@@ -15,8 +15,11 @@ npm install supertest-koa-agent --save-dev
 
 ```js
 var agent = require('supertest-koa-agent');
-var koa = require('koa')
-agent(koa())
+var Koa = require('koa')
+
+var app = new Koa()
+
+agent(app)
 ```
 
 ## API
